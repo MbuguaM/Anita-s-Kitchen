@@ -10,77 +10,87 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--bootstrap -->
-        <link href="" type="text/css"/>
+        <link href="css/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <!--custom style -->
-        <link hred="" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-      <div clas ="container-fluid"> 
-           
-          
+      <div class="container-fluid"> 
           <!-- the top -->
-             <div class="row" id="header">
-                        <header>   
-                        <!--drop-down menu -->
-                        <nav>
-
-                        </nav>
-                        
-                        <!-- icon -->
-                        <img src="" alt="" />
-                            <p>We Provide The Best Food</p>
-                            <p>At The Right Place</p>
-                        </header>
-                </div>
+             <div class="row" >
+                <div class="jumbotron">
+                    <nav>
+                          <button type="button" class="btn btn-default" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                              </button>
+                              
+                    </nav>  
+                   <img src="images/logoBig.png"/>
+                     <p>We Provide the best food <br/>
+                        At The <strong>Right Price</strong>
+                    </p>
+                   
+                </div>       
+            </div>
 
             
-            <!--middle section -->
+            <!-- middle section -->
               <!-- row 1-menu-->
-               <div class="row">
-                   <div class="col-md-3">
+                <div class="row">
+                   <div class="col-sm-3">
                        <!--split in tow -->
-                       <div class="row"><span>Happy Hour</span></div>
+                        <div class="row"><span>Happy Hour</span></div>
                        <div class="row"><span>Party Time</span></div>
                    </div>
-                   <div class="col-md-3">
-                        <img src="" alt="" />
+                   <div class="col-sm-3">
+                        <img src="images/foodtop/breakfast.jpg" alt="a cup of tea and pieces of bread" />
+                        <p>BreakFast</p>
                     </div>
-                    <div class="col-md-3">
-                            <img src="" alt="" />
+                    <div class="col-sm-3">
+                            <img src="images/foodtop/lunch.jpg" alt="two wine glasses half full" />
+                            <p>Lunch</p>
                     </div>
-                  <div class="col-md-3">
-                        <img src="" alt="" />
+                  <div class="col-sm-3">
+                        <img src="images/foodtop/dinner.jpg" alt="a cup of wine and plate which chicken" />
+                        <p>Dinner</p>
                     </div>
                 </div>
-               <!-- row 2 fast food-->
+
+               <!-- row 2 fast food -->
+
                <div class="row">
-                       <div clas="col-md-6">
-                      <img src="" alt=""/>
+                       <div clas="col-md-6" id="fastFood">
+                      <!-- <img src="images/fastFood1.jpg" alt=""/>
+                      <img src="images/fastFood2.jpg" alt=""/> -->
                   </div>
                   <div class="col-md-6">
-                      <h2></h2>
-                      <h3></h3>
-                      <p></p>
-                      <button></button>
-                  </div>
+                      <h2>Fast Food</h2>
+                      <h3>You will love our delicious fast food</h3>
+                      <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor nunc id arcu pulvinar, commodo pretium diam eleifend. Sed elementum erat in molestie ultricies. Sed rutrum sagittis metus. Vivamus iaculis suscipit congue. Quisque laoreet augue ut felis imperdiet, ac eleifend quam imperdiet. Nam maximus, nibh sed placerat semper, ligula sem feugiat orci, vel aliquam sapien est ut nunc. Sed in tempus urna. Donec sed dolor nec nibh egestas efficitur nec non urna.
+                        </p>
+                      <button>VIEW GALLERY --></button>
+                  </div> -->
 
-               </div>
+               </div> -->
                <!-- row3 Drinks -->
                <div class="row">
                       <div class="col-md-6">
-                            <h2></h2>
-                            <h3></h3>
-                            <p></p>
-                            <button></button>
+                            <h2>Drinks</h2>
+                            <h3>We also produce delicious drinks</h3>
+                            <p>
+                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor nunc id arcu pulvinar, commodo pretium diam eleifend. Sed elementum erat in molestie ultricies. Sed rutrum sagittis metus. Vivamus iaculis suscipit congue. Quisque laoreet augue ut felis imperdiet, ac eleifend quam imperdiet. Nam maximus, nibh sed placerat semper, ligula sem feugiat orci, vel aliquam sapien est ut nunc. Sed in tempus urna. Donec sed dolor nec nibh egestas efficitur nec non urna. 
+                            </p>
+                            <button>VIEW GALLERY --></button>
                  </div>
-                  <div clas="col-md-6">
-                            <img src="" alt=""/>
+                  <div clas="col-md-6" id="drinks">
+                            <img src="images/drink1.jpg" alt=""/>
+                            <img src="images/drink2.jpg" alt=""/>
                         </div>
              </div>
               <!--row 3 scroll images -->   <!-- ** -->
                 <div class="row" id="scroll-section">
                     <div>
-                        
                         <ul>
                             <li>fast food</li>
                             <li>Drinks</li>
@@ -90,21 +100,21 @@
                         <img src="" alt="" />
                         <!--Images of the food for scrolling -->
                         <p>
-                            <img src="" alt="" />
+                            <img src="images/fastfood/chickenBurger.jpg" alt="" />
                             <p>Chicken burger</p>
                         </p>
                         <p>
-                                <img src="" alt="" />
-                                <p>Chicken burger</p>
+                            <img src="images/fastfood/beefBurger.jpg" alt="" />
+                            <p>Beef burger</p>
                        </p>
                          <p>
-                                <img src="" alt="" />
-                                <p>Chicken burger</p>
-                            </p>
+                            <img src="images/fastfood/chickenPizza.jpg" alt="" />
+                            <p>Chicken Pizza</p>
+                        </p>
                         <p>
-                                <img src="" alt="" />
-                                <p>Chicken burger</p>
-                            </p>
+                            <img src="" alt="" />
+                            <p>Chicken burger</p>
+                        </p>
                         <!-- right scroll sign -->
                         <img src="" alt="" />
                     </div>
@@ -113,24 +123,26 @@
                <div class="row">
                    <div class="col-md-7">
                        <div class="row">
-                           <h2></h2>
-                           <h3></h3>
+                           <h2>Our Happy Customers</h2>
+                           <h3>George Richard</h3>
+                           <p>Great food! Menu is awesome, there foods are not only great but also in the right price.i'll highly recommend them :)</p>
                        </div>
                         <!-- Picture scroll section-->
                        <div class="row">
-                           <img src="" alt="" />
-                           <img src="" alt="" />
-                           <img src="" alt="" />
+                           <img src="images/customers/p1.png" alt="" />
+                           <img src="images/customers/p2.png" alt="" />
+                           <img src="images/customers/p3.png" alt="" />
                        </div>
                    </div>
                    <div class="col-md-5">
-                       <h2></h2>
-                       <p></p>
+                       <h2>About Menu</h2>
+                       <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor nunc id arcu pulvinar, commodo pretium diam eleifend. Sed elementum erat in molestie ultricies. Sed rutrum sagittis metus. Vivamus iaculis suscipit congue. Quisque laoreet augue ut felis imperdiet, ac eleifend quam imperdiet. Nam maximus, nibh sed placerat semper, ligula sem feugiat orci, vel aliquam sapien est ut nunc. Sed in tempus urna. Donec sed dolor nec nibh egestas efficitur nec non urna.</p>
                    </div>
                </div> 
               <!-- Email section -->
-              <div class="row">
-                  <p></p>
+              <div class="row" id="e-mail">
+                  <h2>Get our daily foods items delivered to your email</h2>
                   <input type ="text" placeholder="Your email"/>
                   <input type="button" value="subscribe"/>
               </div>
@@ -138,14 +150,14 @@
 
               <!-- footer -->
               <div class ="row" >
-                  <img src="" alt=""/>
-                  <p></p>
+                  <img src="images/footerlogos/logo_white.png" alt=""/><span><h1>Menu</h1></span>
+                  <p>Thats What We Are</p>
                   <ul>
-                      <li><img src=""/></li>
-                      <li><img src=""/></li>
-                      <li><img src=""/></li>
+                      <li><img src="images/footerlogos/facebook.png"/></li>
+                      <li><img src="images/footerlogos/twitter.png"/></li>
+                      <li><img src="images/footerlogos/pinterest.png"/></li>
                   </ul>
-                  <p></p>
+                  <p>2016 Menu Restaurant</p>
               </div>
                  
 
