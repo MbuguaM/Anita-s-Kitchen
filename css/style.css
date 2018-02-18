@@ -35,6 +35,49 @@
  }
 .glyphicon {
     font-size:50px;
+    font-stretch: ultra-condensed;
 }
 
 /* first row elements */
+#firstRow div{
+    
+    margin:0px;
+    padding:0px;
+}
+#topRow,#bottomRow{
+    height:100px ;
+    text-align:center;
+    }
+#topRow p,#bottomRow p{
+    font-size:30px;
+    padding:25px;
+}
+#topRow{  
+    background-color:lightgrey;
+}
+#bottomRow{
+    background-color:orangered;
+    color:#fff;
+}
+
+#breakfast,#lunch,#dinner{
+      height:200px;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+#breakfast p,#lunch p,#dinner p{
+    font-size:30px;
+
+}
+#breakfast{
+  background:url("../images/foodtop/breakfast.jpg");
+}
+#lunch{
+    background:url("../images/foodtop/lunch.jpg" );
+}
+#dinner{
+  background:url("../images/foodtop/dinner.jpg");
+}
