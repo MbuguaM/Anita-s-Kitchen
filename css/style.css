@@ -83,6 +83,11 @@
 #dinner{
   background:url("../images/foodtop/dinner.jpg");
 }
+#breakfast:hover, #lunch:hover, #dinner:hover{
+   opacity: 0.5;
+  color: black;
+     
+}
 
 /* second row */
 #fastFood{
