@@ -88,7 +88,7 @@
 #fastFood{
     width:490px;
     height:400px;
-    margin:100px 20px 100px 200px;
+    margin:100px 20px 100px 100px;
     background:none;
     border-style:solid;
     border-color:#fff; 
@@ -128,18 +128,46 @@
    right:0px;
 }
 #drinkPictures img{
+padding:0px;
+margin:0px;
+}
+
+/*fourth row */
+#newSection{
+    width:102.5%;
+    height:590px;
+    margin-right:0px;
+    background:url("../images/backgrounds/foodsBg.jpg");
+   
+}
+#insetScrollSection{
+    width:80%;
+    height:400px;
+    margin:100px 160px 100px 160px;
+    background:#fff;
+    padding:0px;
+}
+#insetScrollSection img{
+    width:277;
+    height:210;
+    float:left;
+    padding:40px 20px 75px 20px;
+    margin:0px
+}
+#insetScrollSection button{
     padding:0px;
     margin:0px;
+    background:trasnparent;
+    border:none;
+
 }
 
-/*fourth row 
-#scroll-section{
-    background:ur("../images/backgrounds/foodsBg.jpg")
-    justify-content:left;
-}
-*/ 
+
 /*fifth row customers */
-
+.container{
+    width:80%;
+ margin:100px 200px 100px 200px;
+}
 
 /* sixth row  email section*/
  #e-mail{
