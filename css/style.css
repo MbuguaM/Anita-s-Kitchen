@@ -40,9 +40,11 @@
 
 /* first row elements */
 #firstRow div{
-    
-    margin:0px;
+      margin:0px;
     padding:0px;
+}
+#firstRow div:hover{
+ 
 }
 #topRow,#bottomRow{
     height:100px ;
@@ -81,3 +83,50 @@
 #dinner{
   background:url("../images/foodtop/dinner.jpg");
 }
+
+/* second row */
+#fastFood{
+    width:490px;
+    height:400px;
+    margin:100px 20px 100px 200px;
+    background:none;
+    border-style:solid;
+    border-color:#fff; 
+    border:20px;
+    box-shadow:3px 3px 3px 3px black;
+    padding:0px;
+} 
+#fastFood1 {
+    height:200px;
+    background:url("../images/fastFood1.jpg");
+    margin:0px;
+    padding:0px;
+}
+#fastFood2 {
+    height:200px;
+    background:url("../images/fastFood2.jpg");
+    margin:0px;
+    padding:0px;
+}
+#fastFoodText{
+    float:left;
+    margin-left:0px;
+    margin-top:100px;
+    padding:0px;
+}
+
+/* third row */
+
+#drinkText p,#drinkText h2,#drinkText h3{
+    text-align:right;  
+}
+#drinktext button{
+   position:absolute;
+   right:0px;
+}
+#drinkPictures img{
+    padding:0px;
+    margin:0px;
+}
+
+/*fourth row */ 
