@@ -117,6 +117,9 @@
 
 /* third row */
 
+#drinkTExt,#drinkPictures{
+    margin-bottom: 100px;
+} 
 #drinkText p,#drinkText h2,#drinkText h3{
     text-align:right;  
 }
@@ -129,4 +132,48 @@
     margin:0px;
 }
 
-/*fourth row */ 
+/*fourth row 
+#scroll-section{
+    background:ur("../images/backgrounds/foodsBg.jpg")
+    justify-content:left;
+}
+*/ 
+/*fifth row customers */
+
+
+/* sixth row  email section*/
+ #e-mail{
+     height:300px;
+     background:url("../images/backgrounds/subscribe.jpg");
+    
+
+ }
+ #e-mail p,#e-mail h2{
+    text-align:center;
+    color:#fff;
+ }
+ #e-mail h2{
+     padding-top:75px;
+ }
+ #e-mail button{
+     background-color:orangered;
+     border:none;
+ }
+#e-mail #text-box{
+    background-color: rgba(255, 255, 255, 0.5);
+    border:none;
+    color:#fff;
+    padding:2px;
+    }
+
+/* seventh row footer */
+#footer {
+    height:300px;
+    background-color:orangered;
+    text-align:center;
+    color:#fff;
+}
+#footer #icon{
+padding-top:50px;    
+
+}
