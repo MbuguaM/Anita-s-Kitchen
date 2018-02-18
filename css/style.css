@@ -37,6 +37,32 @@
     font-size:50px;
     font-stretch: ultra-condensed;
 }
+#hamburger{
+ outline:none;
+  z-index:10000000000000;
+  cursor: pointer;
+}
+#cross{
+cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+  pull: left;
+}
+#menu{
+    z-index:1000000;
+    font-size:35px;
+    width:20%;
+    background:#Fff;
+     position:absolute;
+    text-align:center;
+     font-size:12px;
+     padding:20px;
+
+}
+#menu ul li{
+    list-style:none;
+    
+}
 
 /* first row elements */
 #firstRow div{

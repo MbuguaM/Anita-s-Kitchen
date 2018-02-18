@@ -20,9 +20,18 @@
              <div class="row" >
                 <div class="jumbotron">
                     <nav>
-                          <button type="button" class="btn btn-default" aria-label="Left Align">
+                          <button type="button" class="btn btn-default" aria-label="Left Align" id="hamburger">
                                 <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
                               </button>
+                              <button type="button" class="btn btn-default" aria-label="Left Align" id="cross">
+                                    <span class="glyphicon  glyphicon-remove" aria-hidden="true"></span>
+                                  </button> 
+                                  <div id="menu">
+                                        <ul>
+                                          <li><a href="#">Menu</a></li>
+                                         <li> <a href="#">Events</a></li>
+                                          <li><a href="#">Contact Us</a></li>
+                                        </ul>
                     </nav>  
                    <img src="images/logoBig.png"/>
                      <p>We Provide the best food <br/>
@@ -186,8 +195,8 @@
                   <h2>Get our daily foods items delivered to your email</h2>
                  <p>
                    
-                     <input type ="text" id="text-box" placeholder="Your email"/>
-                  <span><button>subscribe</button></span>
+                     <input type ="text" id="text-box"  placeholder="Your email"/>
+                  <span><button onclick="savedEmail()">subscribe</button></span>
                  </p> 
               </div>
               
